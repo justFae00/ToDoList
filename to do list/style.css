@@ -1,0 +1,57 @@
+html {
+  background-color: #5d92b8;
+  font-family: cursive;
+}
+
+body {
+  display: grid;
+  justify-content: center;
+}
+
+#input-box {
+  background-color: #e3e3e3;
+  width: 15cm;
+  height: 1.2cm;
+  margin-top: 1.8cm;
+  text-align: center;
+  font-size: 22px;
+  font-family: cursive;
+  border-radius: 5px;
+  border: none;
+}
+
+.tasks {
+  background-color: #303030;
+  margin-top: 2mm;
+  max-height: 14cm;
+  overflow: auto;
+  border-radius: 5px;
+}
+
+ul li {
+  width: 12.45cm;
+  height: 0.84cm;
+  list-style: none;
+  cursor: pointer;
+  margin: 2mm;
+  border-radius: 10px;
+  padding-left: 3mm;
+  font-size: 19px;
+  background-color: #e1a0c6;
+}
+
+ul li.checked {
+  content: " ";
+  background-color: rgb(146, 150, 183);
+  text-decoration: line-through;
+}
+
+ul li button {
+  float: right;
+  background: none;
+  border: none;
+  border-radius: 3px;
+  font-size: 20px;
+  padding-right: 2mm;
+  cursor: pointer;
+}
